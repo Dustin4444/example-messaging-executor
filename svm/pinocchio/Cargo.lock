@@ -266,7 +266,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "94893f1e0c6eeab764ade8dc4c0db24caf4fe7cbbaafc0eba0a9030f447b5185"
 dependencies = [
  "num-traits",
- "rand 0.8.5",
+ "rand 0.8.6",
 ]
 
 [[package]]
@@ -1382,7 +1382,7 @@ dependencies = [
  "libsecp256k1 0.7.2",
  "mollusk-svm",
  "mollusk-svm-bencher",
- "rand 0.8.5",
+ "rand 0.8.6",
  "solana-program-test",
  "solana-sdk",
 ]
@@ -2223,7 +2223,7 @@ dependencies = [
  "libsecp256k1-core 0.3.0",
  "libsecp256k1-gen-ecmult 0.3.0",
  "libsecp256k1-gen-genmult 0.3.0",
- "rand 0.8.5",
+ "rand 0.8.6",
  "serde",
  "sha2 0.9.9",
  "typenum",
@@ -2762,7 +2762,7 @@ dependencies = [
  "lazy_static",
  "percent-encoding",
  "pin-project",
- "rand 0.8.5",
+ "rand 0.8.6",
  "thiserror",
 ]
 
@@ -3135,7 +3135,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "141bf7dfde2fbc246bfd3fe12f2455aa24b0fbd9af535d8c86c7bd1381ff2b1a"
 dependencies = [
  "bytes",
- "rand 0.8.5",
+ "rand 0.8.6",
  "ring 0.16.20",
  "rustc-hash",
  "rustls",
@@ -3189,9 +3189,9 @@ dependencies = [
 
 [[package]]
 name = "rand"
-version = "0.8.5"
+version = "0.8.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404"
+checksum = "5ca0ecfa931c29007047d1bc58e623ab12e5590e8c7cc53200d5202b69266d8a"
 dependencies = [
  "libc",
  "rand_chacha 0.3.1",
@@ -3960,7 +3960,7 @@ dependencies = [
  "ouroboros",
  "percentage",
  "qualifier_attr",
- "rand 0.8.5",
+ "rand 0.8.6",
  "rayon",
  "regex",
  "rustc_version",
@@ -4089,7 +4089,7 @@ dependencies = [
  "memmap2",
  "modular-bitfield",
  "num_enum 0.7.5",
- "rand 0.8.5",
+ "rand 0.8.6",
  "solana-measure",
  "solana-sdk",
  "tempfile",
@@ -4181,7 +4181,7 @@ dependencies = [
  "futures-util",
  "indexmap 2.13.0",
  "log",
- "rand 0.8.5",
+ "rand 0.8.6",
  "rayon",
  "rcgen",
  "solana-measure",
@@ -4312,7 +4312,7 @@ dependencies = [
  "crossbeam-channel",
  "log",
  "nix",
- "rand 0.8.5",
+ "rand 0.8.6",
  "serde",
  "serde_derive",
  "socket2 0.5.10",
@@ -4346,7 +4346,7 @@ dependencies = [
  "libc",
  "log",
  "nix",
- "rand 0.8.5",
+ "rand 0.8.6",
  "rayon",
  "rustc_version",
  "serde",
@@ -4395,7 +4395,7 @@ dependencies = [
  "num-derive 0.4.2",
  "num-traits",
  "parking_lot",
- "rand 0.8.5",
+ "rand 0.8.6",
  "rustc_version",
  "rustversion",
  "serde",
@@ -4429,7 +4429,7 @@ dependencies = [
  "num-derive 0.4.2",
  "num-traits",
  "percentage",
- "rand 0.8.5",
+ "rand 0.8.6",
  "rustc_version",
  "serde",
  "solana-frozen-abi",
@@ -4650,7 +4650,7 @@ dependencies = [
  "ouroboros",
  "percentage",
  "qualifier_attr",
- "rand 0.8.5",
+ "rand 0.8.6",
  "rayon",
  "regex",
  "rustc_version",
@@ -4724,7 +4724,7 @@ dependencies = [
  "qstring",
  "qualifier_attr",
  "rand 0.7.3",
- "rand 0.8.5",
+ "rand 0.8.6",
  "rustc_version",
  "rustversion",
  "serde",
@@ -4819,7 +4819,7 @@ dependencies = [
  "pkcs8",
  "quinn",
  "quinn-proto",
- "rand 0.8.5",
+ "rand 0.8.6",
  "rcgen",
  "rustls",
  "smallvec",
@@ -5036,7 +5036,7 @@ dependencies = [
  "hash32",
  "libc",
  "log",
- "rand 0.8.5",
+ "rand 0.8.6",
  "rustc-demangle",
  "scroll",
  "thiserror",
@@ -5425,7 +5425,7 @@ dependencies = [
  "humantime",
  "opentelemetry",
  "pin-project",
- "rand 0.8.5",
+ "rand 0.8.6",
  "serde",
  "static_assertions",
  "tarpc-plugins",
@@ -5873,7 +5873,7 @@ dependencies = [
  "http",
  "httparse",
  "log",
- "rand 0.8.5",
+ "rand 0.8.6",
  "rustls",
  "sha1",
  "thiserror",
